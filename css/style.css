@@ -1,0 +1,280 @@
+.about {
+	width: 300px;
+	margin-top: 250px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+
+}
+
+.about h1 {
+	font-family: Bookman, serif;
+	font-size: 45px;
+	text-align: left;
+}
+
+.about p {
+	font-family: Times New Roman, serif;
+	font-size: 18px;
+	text-align: left;
+}
+
+#carousel {
+	width: 624px;
+	height: 416px;
+	margin-left: 70px;
+	margin-bottom: 100px;
+}
+
+.services img {
+	width: 70px;
+	height: 70px;
+	margin-left: 160px;
+}
+
+.services p {
+	font-family: Times New Roman, serif;
+	font-size: 20px;
+	text-align: left;
+	padding: 22px 20px;
+}
+
+.one {
+	display: flex;
+}
+
+.two {
+	display: flex;
+}
+
+.three {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+/* img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+} */
+
+
+/* Style the Image Used to Trigger the Modal */
+#img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.cmodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+.works1 p {
+	font-family: Bookman, serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 10px; 
+	margin: 5px 20px;
+}
+
+.wcontainer1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.works1 {
+	width: 1000px;
+}
+
+
+.work1 {
+	width: 250px;
+}
+
+.works1 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.works2 p {
+	font-family: Bookman, serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 10px; 
+	margin: 5px 20px;
+	margin-top: 70px;
+}
+
+.wcontainer2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.works2 {
+	width: 1000px;
+}
+
+
+.work2 {
+	width: 250px;
+}
+
+.works2 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.works3 p {
+	font-family: Bookman, serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 10px; 
+	margin-bottom: 5px 20px;
+	margin-top: 70px;
+}
+
+.wcontainer3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.works3 {
+	width: 1000px;
+}
+
+
+.work3 {
+	width: 250px;
+}
+
+.works3 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fcontainer1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+form {
+	font-family: Bookman, serif;
+	font-size: 20px;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+label {
+	font-family: Times New Roman, serif;
+	font-size: 18px;
+	font-weight: normal !important;
+	margin-right: 10px;
+}
+
+input {
+	font-family: Times New Roman, serif !important;
+	font-size: 18px;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.email {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.message {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;	
+}
+
+.submit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+
+}
+
+*{
+	box-sizing: border-box;
+/*	background-color: #FDFEFE; */
+}
+
